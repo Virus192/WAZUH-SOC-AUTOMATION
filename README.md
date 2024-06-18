@@ -1,5 +1,5 @@
-# WAZUH SOC
- # Security Operations Automation with Wazuh and Shuffle
+# WAZUH SOC PROJECT
+ # Security Operations Automation with Wazuh, Shuffle and TheHive 
 
 ## Strengthening Defenses and Automating Incident Detection and Response
 
@@ -35,23 +35,37 @@ In response to the evolving cybersecurity landscape, this project aims to fortif
 ## Objectives and Logical Diagram
 
 The project comprised several key phases to address specific aspects of the organization's Security Operation needs.
+ <img src="https://imgur.com/a/M582nJf" />
 
 ## Project Overview
 
 ### Steps and Procedure
 
-1. **Install and Configure Target-PC (Windows 10 Pro) on Oracle VirtualBox**
-2. **Configure Sysmon and Wazuh Agent** to forward security logs to the Wazuh Manager server.
-3. **Install and Configure a Wazuh Manager** on Ubuntu Server using DigitalOcean.
-4. **Install Wazuh Agents on Windows 10** to collect security logs.
-5. **Prepare Credential Dumping Attack** using PowerShell scripts.
-6. **Monitor Security Logs** on the Wazuh Manager server for alerts.
-7. **Install and Configure TheHive** on Ubuntu Server for case management.
-8. **Configure Shuffle SOAR** to receive alerts from Wazuh and trigger automated response actions.
-9. **Integrate Shuffle SOAR with TheHive** for centralized incident handling.
-10. **Configure Shuffle SOAR to Send Email Notifications** to SOC analysts.
-11. **Document Project Steps, Configurations, and Integration Details** for future reference.
-12. **Generate Reports Summarizing Project Outcomes**.
+1. **🔰 Setup Wazuh Manager:** Install and configure a Wazuh Manager on a Ubuntu Server to centrally manage security monitoring.
+2. **🔰 Deploy Wazuh Agents and Sysmon** to forward security logs to the Wazuh Manager server.
+3. 🔰 Deploy Wazuh Agents and Sysmon:
+Install Wazuh agents on Windows 10 machines to collect security logs.
+Deploy Sysmon to enhance Windows event logging with detailed system activity.
+🔰 Configure Log Forwarding:
+Configure Wazuh agents and Sysmon to forward security logs to the Wazuh Manager server for centralized monitoring.
+🔰 Prepare Credential Dumping Attack:
+Use PowerShell scripts to simulate a credential dumping attack on the Windows 10 machine.
+Execute the attack to retrieve credentials and escalate privileges.
+🔰 Monitor Logs with Wazuh:
+Monitor security logs on the Wazuh Manager server for alerts related to the credential dumping attack.
+🔰 Integrate Shuffle SOAR:
+Integrate Wazuh Manager with the Shuffle SOAR platform for automated incident response.
+🔰 Automated Incident Handling:
+Configure Shuffle SOAR to receive alerts from Wazuh and trigger automated response actions.
+Define workflows to analyze, contain, and mitigate security incidents automatically.
+🔰 Incident Management with TheHive:
+Integrate Shuffle SOAR with TheHive case management platform for centralized incident handling.
+Create cases in TheHive for detected security incidents and assign them to SOC analysts for further investigation.
+🔰 Alert Notification via Email:
+Configure Shuffle SOAR to send email notifications to SOC analysts for immediate response and analysis of critical security alerts.
+🔰 Documentation and Reporting:
+Document the project steps, configurations, and integration details for future reference.
+Generate reports summarizing the project outcomes, including detected security incidents and response effectiveness.
 
 ## Detailed Installation and Configuration Steps
 
@@ -96,9 +110,23 @@ This project successfully implemented advanced security measures and demonstrate
 
 ## Importance of Using SOAR Tools
 
-- Rapid Incident Response
-- Enhanced Efficiency
-- Improved Threat Detection
+- Improved Efficiency: SOAR tools automate repetitive tasks such as alert triaging, enrichment, and response actions, reducing the time and effort required by security analysts. This allows analysts to focus on more critical tasks that require human decision-making.
+
+- Faster Response Times: Automation in SOAR tools accelerates incident response by executing predefined workflows and response actions in real-time or near real-time. This speed is crucial in mitigating threats before they escalate.
+
+- Consistency in Response: SOAR tools ensure consistent response actions across incidents by following predefined playbooks or workflows. This consistency helps maintain security best practices and reduces the likelihood of human error.
+
+- Enhanced Collaboration: SOAR platforms facilitate collaboration among different teams within the organization, such as security operations, IT, and incident response teams. This collaboration is essential for effective incident management and resolution.
+
+- Integration Capabilities: SOAR tools integrate with various security technologies, including SIEMs, threat intelligence platforms, endpoint detection and response (EDR) solutions, and ticketing systems. This integration allows for seamless data sharing and orchestration of security tools.
+
+- Scalability: As organizations grow and face increasing volumes of security alerts and incidents, SOAR tools can scale to handle higher workloads without a proportional increase in manpower.
+
+- Centralized Visibility and Reporting: SOAR platforms provide centralized visibility into security incidents, automation workflows, and response metrics. This visibility enables security teams to monitor performance, track metrics, and generate reports for compliance and improvement purposes.
+
+- Cost Efficiency: By automating routine tasks and optimizing resource allocation, SOAR tools help organizations achieve cost efficiencies in their security operations.
+
+Overall, SOAR tools play a crucial role in modern cybersecurity operations by combining orchestration, automation, and response capabilities to improve security posture, reduce response times, and enhance operational efficiency.
 
 ---
 
