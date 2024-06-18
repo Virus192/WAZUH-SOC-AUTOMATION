@@ -36,9 +36,13 @@ In response to the evolving cybersecurity landscape, this project aims to fortif
 - Objective: Practical implementation of security monitoring, incident response automation, and collaboration tools to strengthen an organization's cybersecurity posture and resilience against evolving cyber threats.
 
 The project comprised several key phases to address specific aspects of the organization's Security Operation needs.
- <div>
-    <img src="https://imgur.com/a/M582nJf" />
-</div>
+<p align="center">
+ <br/>
+<img src="https://imgur.com/a/M582nJf.png" height="80%" width="80%" />
+<br />
+
+</p>
+
  
  
 ## Project Overview
