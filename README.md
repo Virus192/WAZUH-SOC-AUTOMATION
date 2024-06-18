@@ -33,6 +33,7 @@ In response to the evolving cybersecurity landscape, this project aims to fortif
 - **Wazuh Agent**
 
 ## Objectives and Logical Diagram
+- Objective: Practical implementation of security monitoring, incident response automation, and collaboration tools to strengthen an organization's cybersecurity posture and resilience against evolving cyber threats.
 
 The project comprised several key phases to address specific aspects of the organization's Security Operation needs.
  <div>
