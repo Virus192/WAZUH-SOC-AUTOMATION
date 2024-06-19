@@ -1,4 +1,4 @@
-# WAZUH SOC PROJECT
+# WAZUH SOC AUTOMATION PROJECT
  # Security Operations Automation with Wazuh, Shuffle and TheHive 
 
 ## Strengthening Defenses and Automating Incident Detection and Response
