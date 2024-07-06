@@ -38,7 +38,7 @@ In response to the evolving cybersecurity landscape, this project aims to fortif
 The project comprised several key phases to address specific aspects of the organization's Security Operation needs.
 <p align="center">
  <br/>
-<img src="https://imgur.com/CYAXDJ2.jpg" height="80%" width="80%" />
+<img src="https://imgur.com/gjBaYyn.jpg" height="80%" width="80%" />
 <br />
 
 </p>
